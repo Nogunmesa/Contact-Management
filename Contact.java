@@ -30,7 +30,28 @@ public class Contact{
     /*
      * Returns the email saved in the contact as a string
      */
-    public String email(){
+    public String getEmail(){
         return this.email;
+    }
+
+    /*
+     * Set name
+     */
+    public void setName(String name){
+        this.name = name;
+    }
+
+    /*
+    * Sets phone number
+    */
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+
+    /*
+     * Sets email
+     */
+    public void setEmail(String email){
+        this.email = email;
     }
 }
